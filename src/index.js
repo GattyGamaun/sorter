@@ -1,26 +1,26 @@
 class Sorter {
   constructor() {
-    // your implementation
+    this.ar = [];
   }
 
   add(element) {
-    // your implementation
+    this.ar.push(element);
   }
 
   at(index) {
-    // your implementation
+    return this.ar[index];
   }
 
   get length() {
-    // your implementation
+    return this.ar.length;
   }
 
   toArray() {
-    // your implementation
+    return this.ar;
   }
 
   sort(indices) {
-    // your implementation
+    return  indices.sort();
   }
 
   setComparator(compareFunction) {
